@@ -5,8 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-    1232132221
+    <h1>Калькулятор от Владоса!</body<h1>
+   <div class = "calc">
+        <div class="string">
+            <input type="text" id="textDisplay">
+            <input type="button" id="End" value="=" onclick=END()>
+            <input type="button" id="c" value="CE" onclick=numberCe()>
+        </div>
+        <div class="Btn">
+            <input type="button" id="1" value="1" onclick=number1()>
+            <input type="button" id="2" value="2" onclick=number2()>
+            <input type="button" id="3" value="3" onclick=number3()>
+            <input type="button" id="4" value="4"
+            onclick=number4()>
+            <input type="button" id="5" value="5"
+            onclick=number5()>
+            <input type="button" id="6" value="6"
+            onclick=number6()>
+            <input type="button" id="7" value="7"
+            onclick=number7()>
+            <input type="button" id="8" value="8"
+            onclick=number8()>
+            <input type="button" id="9" value="9"
+            onclick=number9()>
+            <input type="button" id="0" value="0"
+            onclick=number0()>
+        </div>
+        <div class="func">
+            <input type="button" id="plus" value="+" onclick=Plus()>
+            <input type="button" id="minus" value="-" onclick=Minus()>
+            <input type="button" id="ymnoj" value="x"
+            onclick=Ymnoj()>
+            <input type="button" id="delym" value="/"
+            onclick=Delym()>
+            <input type="button" id="rightS" value="("
+            onclick=RightS()>
+            <input type="button" id="leftS" value=")"
+            onclick=LeftS()>
+        </div>
+   </div>
+    
+    <script src="lesons.js"></script>
 </body>
 </html>

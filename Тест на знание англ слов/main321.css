@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+h5 {
+    margin-left: 2.5%;
+    margin-right: 3%;
+    display: inline-block;
+}
+.wordString {
+    margin-right: 35%;
+    display: inline-block;
+}
+
+.notification {
+    width: 350px;
+}
+
+.results {
+    width: 30px;
+}

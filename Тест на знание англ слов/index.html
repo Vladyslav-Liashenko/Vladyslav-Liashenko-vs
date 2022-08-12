@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main321.css" />
+</head>
+<body>
+    <h1>Проверяем как ты use Translater в своей HEAD 😂</h1>
+        <div class="translateWord">
+            <div class="menuWord">
+                <h5>Слово:</h5>
+                <h5>Перевод:</h5>
+                <h5>Результат:</h5>
+                <h5>Правильно:</h5>
+            </div>
+            
+            <div class="wordString">
+                <input type="text" value="Приходить" disabled="false">
+                <input type="text" id="1">
+                <input type="text" name="resultCheck" id="resultCheck1" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers1" disabled="false">
+            </div>
+            <div class="wordString">
+                <input type="text" value="Ломать" disabled="false">
+                <input type="text" id="2">
+                <input type="text" name="resultCheck" id="resultCheck2" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers2" disabled="false">
+            </div>
+            <div class="wordString">
+                <input type="text" value="Говорить" disabled="false">
+                <input type="text" id="3">
+                <input type="text" name="resultCheck" id="resultCheck3" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers3" disabled="false">
+            </div>
+            <div class="wordString">
+                <input type="text" value="Писать" disabled="false">
+                <input type="text" id="4">
+                <input type="text" name="resultCheck" id="resultCheck4" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers4" disabled="false">
+            </div>
+            <div class="wordString">
+                <input type="text" value="Есть" disabled="false">
+                <input type="text" id="5">
+                <input type="text" name="resultCheck" id="resultCheck5" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers5" disabled="false">
+            </div>
+            <div class="wordString">
+                <input type="text" value="Спать" disabled="false">
+                <input type="text" id="6">
+                <input type="text" name="resultCheck" id="resultCheck6" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers6" disabled="false">
+            </div>
+            <div class="wordString">
+                <input type="text" value="Бегать" disabled="false">
+                <input type="text" id="7">
+                <input type="text" name="resultCheck" id="resultCheck7" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers7" disabled="false">
+            </div>
+            <div class="wordString">
+                <input type="text" value="Сидеть" disabled="false">
+                <input type="text" id="8">
+                <input type="text" name="resultCheck" id="resultCheck8" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers8" disabled="false">
+            </div>
+            <div class="wordString">
+                <input type="text" value="Читать" disabled="false">
+                <input type="text" id="9">
+                <input type="text" name="resultCheck" id="resultCheck9" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers9" disabled="false">
+            </div>
+            <div class="wordString">
+                <input type="text" value="Получать" disabled="false">
+                <input type="text" id="10">
+                <input type="text" name="resultCheck" id="resultCheck10" disabled="false">
+                <input type="text" name="correctAnswers" id="correctAnswers10" disabled="false">
+            </div>
+        </div>
+        <br>
+            <input type="button" value="Проверка" id="outCheck" onclick=resultCome()>
+            
+            <h2>Набранные БАЛЛЫ:</h2>
+        
+            <p>Правильно:<input type="number" class="results" id="pointTrue" disabled="false"></p>
+       
+            <p>Не правильно:<input type="number" class="results" id="pointFalse" disabled="false"></p>
+        
+            <p>Процент прохождения:<input type="number" class="results" id="point%" disabled="false"></p>
+       
+            <p>Комментарий:<input type="text" class="notification" id="notification" disabled="false"></p>
+
+    <script src="english.js"></script>        
+</body>
+</html>

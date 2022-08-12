@@ -1,10 +1,8 @@
 
 
-function END (event) {
-    document.getElementById("textDisplay").value;
+function calculate () {
+    document.getElementById("textDisplay").value = eval(document.getElementById("textDisplay").value);
 }
-
-
 
 
 function LeftS () {

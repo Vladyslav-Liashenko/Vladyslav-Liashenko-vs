@@ -1,0 +1,33 @@
+.getty {
+    position: relative;
+    width: 100%;
+
+}
+
+.inputTasks {
+    position: absolute;
+    top: 260px;
+    left: 1050px;
+    width: 800px;
+}
+.alert {
+    width: 450px;
+    height: 20px;
+}
+
+.buttonsMenu {
+    position: absolute;
+    top: 950px;
+    left: 1050px;
+    width: 300px;
+}
+
+.ontaskText {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.taskValue {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}

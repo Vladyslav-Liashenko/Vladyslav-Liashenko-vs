@@ -19,3 +19,4 @@ console.log(person.speciality);
 
 delete person.age;
 console.log(person);
+/

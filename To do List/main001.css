@@ -8,10 +8,10 @@
     position: absolute;
     top: 260px;
     left: 1050px;
-    width: 800px;
+    width: 700px;
 }
 .alert {
-    width: 450px;
+    width: 600px;
     height: 20px;
 }
 
@@ -30,4 +30,14 @@
 .taskValue {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
+}
+
+.btn-light {
+    position: absolute;
+    left: 515px;
+    width: 150px;
+}
+
+.ComplateTask {
+ color: aqua;
 }

@@ -7,10 +7,10 @@ var arr = [3, 1, 1, 2, 1, 2, 4];
 for (let i = 0; i < arr.length; i++) {
     counts[arr[i]] = (counts[arr[i]] || 0) + 1;
 }
-for (let max in counts){
-  if (counts[max] > countV) {
-    countV = counts[max];
-    countI = max;
+for (let key in counts){
+  if (counts[key] > countV) {
+    countV = counts[key];
+    countI = key;
   }
 }
 console.log("Key: " + countI + ". Max num of repetitions: " + countV + ".");

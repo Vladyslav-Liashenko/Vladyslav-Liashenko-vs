@@ -1,0 +1,188 @@
+.RightPart {
+    background-color: rgb(243, 243, 243);
+}
+.LeftPart {
+    position: absolute;
+    width: 377px;
+    height: 1410px;
+    left: 33px;
+    top: 40px;
+    background: #1E2939;
+}
+.myPhoto {
+    position: absolute;
+    width: 377px;
+    height: 390px;
+    left: 0px;
+    top: 0px;
+}
+body {
+    position: absolute;
+    width: 1210px;
+    height: 1450px;
+    left: 35px;
+    top: 28px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+.Front {
+    position: absolute;
+    width: 153px;
+    height: 15.6px;
+    left: 455px;
+    top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+h1 {
+    position: absolute;
+    width: 484px;
+    height: 45.89px;
+    left: 455px;
+    right: 341px;
+    top: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #5695DE;
+}
+.Experience {
+    position: absolute;
+    width: 549px;
+    height: 175px;
+    left: 455px;
+    top: 140px;
+}
+.Exp {
+    color: #5695DE;
+    font-size: 22px;
+}
+.ExpNote {
+    position: absolute;
+    width: 549px;
+    height: 175px;
+    left: 25px;
+    top: 50px;
+}
+.Edu {
+    position: absolute;
+    width: 118px;
+    height: 20.84px;
+    left: 456px;
+    top: 300px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #5695DE;
+}
+.EduB {
+position: absolute;
+    width: 549px;
+    height: 175px;
+    left: 400px;
+    top: 350px;
+}
+.EduBm {
+    position: absolute;
+    width: 549px;
+    height: 175px;
+    left: 100px;
+    top: 0px;
+}
+.Work {
+    position: absolute;
+    width: 942px;
+    height: 1532px;
+    left: 456px;
+    top: 550px;
+}
+.WorkExp {
+    color: #5695DE;
+    font-size: 22px;
+}
+.WorkNum{
+    position: absolute;
+    width: 620px;
+    height: 1075px;
+    left: 25px;
+    top: 50px;
+}
+.colortext {
+    color: #5695DE;
+}
+h2{
+    font-size: 20px;
+}
+.date1 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 0px;
+    top: 20px;
+}
+.date2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 0px;
+    top: 310px;
+}
+.date3 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 0px;
+    top: 500px;
+}
+.Contacts {
+    position: absolute;
+    width: 341px;
+    height: 275px;
+    left: 30px;
+    top: 400px;
+}
+.Tech{
+    position: absolute;
+    width: 292px;
+    height: 251px;
+    left: 30px;
+    top: 720px;
+}
+.Soft {
+    position: absolute;
+    width: 113px;
+    height: 156px;
+    left: 30px;
+    top: 960px;
+}
+.Dev {
+    position: absolute;
+    width: 265px;
+    height: 434px;
+    left: 30px;
+    top: 1140px;
+}
+h5 {
+    color: #FFFFFF;
+}
+.Note {
+    color: rgb(172, 174, 175);
+}
+A {
+    color: rgb(86, 166, 200);
+}
+A:visited {
+    color:rgb(86, 166, 200);
+}
+A:active {
+    color: #ffffff;
+}

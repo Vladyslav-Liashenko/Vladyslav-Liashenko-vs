@@ -1,6 +1,7 @@
 // 1. Write a function, which finds the most frequently occurring element in an array.
 var arr = [3, 1, 1, 2, 1, 2, 4];
-  var counts = {};
+var counts = {};
+console.log(counts);
   var countV = 0;
   var countI = 0;
 
@@ -40,7 +41,7 @@ function palindrome() {
 // console.log(result);
 // ----------------------------------------------------------
 }
-console.log(palindrome(target))
+console.log(palindrome())
 palindrome();
 
 // 3. Write a function, which will convert temperature from Fahrenheit to Celsius.(input [5, 15, 38], function returns [-15, -9.4, 3.3])

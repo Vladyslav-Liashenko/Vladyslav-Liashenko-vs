@@ -121,27 +121,20 @@ position: absolute;
 }
 h2{
     font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .date1 {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    left: 0px;
-    top: 20px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 .date2 {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    left: 0px;
-    top: 310px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 .date3 {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    left: 0px;
-    top: 500px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 .Contacts {
     position: absolute;

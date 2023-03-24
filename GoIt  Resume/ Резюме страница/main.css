@@ -1,0 +1,117 @@
+body {
+    margin: auto;
+    width: 1210px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+.container_body{
+    margin: auto;
+    display: flex;
+}
+.leftpart {
+    display: flex;
+    flex-direction: column;
+    width: 377px;
+    background: #1E2939;
+}
+.myphoto {
+    width: 377px;
+}
+.container_leftpart {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    height: 100%;
+}
+.note {
+    margin: 0px;
+    margin-top: 20px;
+    color: rgb(172, 174, 175);
+}
+
+.left_h3 {
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 40px 0px 0px 20px;
+}
+.link_contact {
+    color: rgb(86, 166, 200);
+}
+
+.link_contact:visited {
+    color: rgb(86, 166, 200);
+}
+
+.link_contact:active {
+    color: #ffffff;
+}
+.rightpart {
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+.container_right {
+    margin: 30px;
+}
+.front {
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.user_name {
+    margin: 0%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #5695DE;
+}
+.h3_name_block {
+    margin: 0%;
+    margin-top: 20px;
+    color: #5695DE;
+    font-size: 22px;
+}
+.expnote {
+    margin: 0%;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+.edub {
+    margin: 0%;
+    margin-top: 15px;
+    padding: 0%;
+    padding-left: 30px;
+}
+.edu_li {
+    display: flex;
+}
+.edu_p_name {
+    margin: 0%;
+    margin-top: 10px;
+    min-width: 80px;
+}
+.edu_p {
+    margin: 0%;
+    margin-top: 10px;
+}
+.name_position {
+    margin: 0%;
+    margin-top: 15px;
+}
+.work_card {
+    padding-left: 30px;
+}
+.date {
+    margin: 0%;
+}
+.colortext {
+    color: #5695DE;
+}
+
